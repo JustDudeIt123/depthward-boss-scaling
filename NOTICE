@@ -1,0 +1,10 @@
+DepthWard Boss Scaling 1.20.1-2.0.3
+Original Boss Scaling System: sixik. Original runtime metadata declares GNU LGPL 3.0.
+DepthWard modifications and project icon: justthekingg, 2026-11-10.
+This is a modified fork, not the original author's release.
+The original namespace and scripting API are retained for compatibility.
+See LICENSE (LGPL v3) and COPYING (GPL v3). No warranty.
+Corresponding source is supplied in the adjacent source ZIP.
+Changes: spawn-time player selection, persistent health scaling, personal loot,
+pickup/visibility/merge/hopper protection, reload behavior, release branding.
+The recovered-2.0.1 directory preserves the supplied reference implementation.

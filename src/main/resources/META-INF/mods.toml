@@ -1,0 +1,29 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="LGPL-3.0-only"
+[[mods]]
+logoFile="logo.png"
+modId="bossscalingsystem"
+version="1.20.1-2.0.3"
+displayName="DepthWard Boss Scaling"
+displayTest="IGNORE_SERVER_VERSION"
+authors="justthekingg (DepthWard changes), sixik (original mod)"
+description="Spawn-time health scaling and persistent personal boss drops."
+[[dependencies.bossscalingsystem]]
+modId="forge"
+mandatory=true
+versionRange="[47.4.4,)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.bossscalingsystem]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.20.2)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.bossscalingsystem]]
+modId="kubejs"
+mandatory=true
+versionRange="[2001.6.5,)"
+ordering="AFTER"
+side="BOTH"
